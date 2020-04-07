@@ -1,4 +1,4 @@
-FROM anibali/pytorch:cuda-9.0
+FROM rocm/pytorch:rocm3.3_ubuntu16.04_py3.6_pytorch
 
 RUN sudo apt-get update
 RUN sudo apt-get upgrade -y
